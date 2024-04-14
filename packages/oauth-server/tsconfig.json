@@ -1,0 +1,22 @@
+{
+	"extends": "../../tsconfig.json",
+	"include": [
+		"src",
+		"test"
+	],
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./build"
+	},
+	"references": [
+		{
+			"path": "../oauth-api"
+		},
+		{
+			"path": "../oauth-core"
+		},
+		{
+			"path": "../oauth-api"
+		},
+	]
+}

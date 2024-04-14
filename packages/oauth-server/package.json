@@ -1,0 +1,25 @@
+{
+	"name": "oauth-server",
+	"packageManager": "yarn@4.1.0",
+	"main": "build/index.js",
+	"scripts": {
+		"clean": "rimraf build tsconfig.tsbuildinfo",
+		"build": "tsc -b",
+		"dev": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec 'ts-node src/index.ts'"
+	},
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"express": "^4.19.2",
+		"oauth-api": "workspace:^",
+		"oauth-core": "workspace:^",
+		"oauth-spi": "workspace:^"
+	},
+	"devDependencies": {
+		"@types/body-parser": "^1",
+		"@types/express": "^4.17.21",
+		"nodemon": "^3.1.0",
+		"rimraf": "^5.0.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	}
+}

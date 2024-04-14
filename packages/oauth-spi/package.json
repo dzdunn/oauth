@@ -1,0 +1,13 @@
+{
+	"name": "oauth-spi",
+	"packageManager": "yarn@4.1.0",
+	"main": "build/index.js",
+	"scripts": {
+		"clean": "rimraf build tsconfig.tsbuildinfo",
+		"build": "tsc -b ."
+	},
+	"devDependencies": {
+		"rimraf": "^5.0.5",
+		"typescript": "^5.3.3"
+	}
+}
