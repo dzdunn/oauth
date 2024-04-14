@@ -1,10 +1,10 @@
 {
 	"eslint.experimental.useFlatConfig": true,
-	"editor.formatOnSave": false,
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": "explicit"
+		"source.fixAll.eslint": "always",
+		"source.organizeImports": "always"
 	},
-	"editor.detectIndentation": false,
-	"editor.insertSpaces": false,
-	"editor.tabSize": 4
+	// "editor.detectIndentation": false,
+	// "editor.insertSpaces": false,
+	// "editor.tabSize": 4
 }

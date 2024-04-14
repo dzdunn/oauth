@@ -35,4 +35,8 @@ export interface OAuthClient {
 	 * The client secret for a confidential client using basic authentication. 
 	 */
 	secret?: string;
+	/**
+	 * The scopes the client may request.
+	 */
+	scopes: Set<string>;
 }

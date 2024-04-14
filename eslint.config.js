@@ -8,7 +8,6 @@ import reactRefresh from 'eslint-plugin-react-refresh';
 import globals from 'globals';
 import stylisticJs from '@stylistic/eslint-plugin-js';
 
-
 export default tseslint.config(
 	eslint.configs.recommended,
 	...tseslint.configs.recommended,

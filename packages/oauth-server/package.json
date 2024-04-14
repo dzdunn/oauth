@@ -8,7 +8,6 @@
 		"dev": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec 'ts-node src/index.ts'"
 	},
 	"dependencies": {
-		"body-parser": "^1.20.2",
 		"express": "^4.19.2",
 		"oauth-api": "workspace:^",
 		"oauth-core": "workspace:^",
@@ -20,6 +19,6 @@
 		"nodemon": "^3.1.0",
 		"rimraf": "^5.0.5",
 		"ts-node": "^10.9.2",
-		"typescript": "^5.3.3"
+		"typescript": "^5.4.5"
 	}
 }
