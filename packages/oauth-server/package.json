@@ -9,6 +9,7 @@
 	},
 	"dependencies": {
 		"express": "^4.19.2",
+		"express-session": "^1.18.0",
 		"oauth-api": "workspace:^",
 		"oauth-core": "workspace:^",
 		"oauth-spi": "workspace:^"
@@ -16,6 +17,7 @@
 	"devDependencies": {
 		"@types/body-parser": "^1",
 		"@types/express": "^4.17.21",
+		"@types/express-session": "^1",
 		"nodemon": "^3.1.0",
 		"rimraf": "^5.0.5",
 		"ts-node": "^10.9.2",
